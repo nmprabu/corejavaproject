@@ -1,1 +1,4 @@
-2024-09-01 08:21:10,338 INFO c.c.l.d.PetrolCar [main] Pertrol
+2024-09-08 08:23:25,289 INFO c.c.s.OrderMain [main] {Address(location=Anna Nager, city=Chennai)=2, Address(location=Marathalli, city=Bangalore)=3, Address(location=Nagercoil, city=Kanyakumari)=1}
+2024-09-08 08:23:25,314 INFO c.c.s.OrderMain [main] Address(location=Marathalli, city=Bangalore)
+2024-09-08 08:23:25,316 INFO c.c.s.OrderMain [main] 3
+2024-09-08 08:25:26,817 INFO c.c.s.StudentMain [main] [Henry, Bob, Gary]

@@ -50,32 +50,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Gradle.Build corejavaproject.executor": "Run",
-    "Gradle.corejavaproject [:AdditionMain.main()].executor": "Run",
-    "Gradle.corejavaproject [:BlockingQueueEx.main()].executor": "Run",
-    "Gradle.corejavaproject [:DemoMain.main()].executor": "Run",
-    "Gradle.corejavaproject [:OrderMain.main()].executor": "Run",
-    "Gradle.corejavaproject [:ReenterantlockExample.main()].executor": "Run",
-    "Gradle.corejavaproject [:TestMain.main()].executor": "Run",
-    "Gradle.corejavaproject [:ThreadsTest.main()].executor": "Run",
-    "Gradle.corejavaproject [:VolatileMain.main()].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Gradle.Build corejavaproject.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:AdditionMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:BlockingQueueEx.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:DemoMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:OrderMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:ReenterantlockExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:TestMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:ThreadsTest.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:VolatileMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   },
-  "keyToStringList": {
-    "GitStage.ChangesTree.GroupingKeys": [
-      "directory",
-      "module",
-      "repository"
+  &quot;keyToStringList&quot;: {
+    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;,
+      &quot;repository&quot;
     ]
   }
-}]]></component>
-  <component name="RunManager" selected="Application.com.corejavaproject.lambda.defaultstaticprivateinInterface.TestMain">
+}</component>
+  <component name="RunManager" selected="Application.OrderMain">
     <configuration name="AdditionMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.corejavaproject.lambda.AdditionMain" />
       <module name="corejavaproject.main" />
@@ -89,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.corejavaproject.thread.threadlocal.DemoMain" />
+    <configuration name="OrderMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.corejavaproject.stream.OrderMain" />
       <module name="corejavaproject.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.corejavaproject.thread.threadlocal.*" />
+          <option name="PATTERN" value="com.corejavaproject.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OrderMain" />
         <item itemvalue="Application.com.corejavaproject.lambda.defaultstaticprivateinInterface.TestMain" />
         <item itemvalue="Application.AdditionMain" />
         <item itemvalue="Application.ReenterantlockExample" />
         <item itemvalue="Application.TestMain" />
-        <item itemvalue="Application.DemoMain" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +191,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723389112849</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="blockingqueue">
+      <option name="closed" value="true" />
+      <created>1725802641547</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1725802641547</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
