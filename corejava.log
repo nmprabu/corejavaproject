@@ -1,6 +1,1 @@
-2024-08-11 08:10:34,885 INFO c.c.t.t.DemoTask [Thread-2] Starting Thread: 2 : 2024-08-11T08:10:34.878-0700
-2024-08-11 08:10:34,885 INFO c.c.t.t.DemoTask [Thread-0] Starting Thread: 0 : 2024-08-11T08:10:34.878-0700
-2024-08-11 08:10:34,885 INFO c.c.t.t.DemoTask [Thread-1] Starting Thread: 1 : 2024-08-11T08:10:34.878-0700
-2024-08-11 08:10:34,909 INFO c.c.t.t.DemoTask [Thread-2] Thread Finished: 2: 2024-08-11T08:10:34.878-0700
-2024-08-11 08:10:39,913 INFO c.c.t.t.DemoTask [Thread-0] Thread Finished: 0: 2024-08-11T08:10:34.878-0700
-2024-08-11 08:10:41,919 INFO c.c.t.t.DemoTask [Thread-1] Thread Finished: 1: 2024-08-11T08:10:34.878-0700
+2024-09-01 08:21:10,338 INFO c.c.l.d.PetrolCar [main] Pertrol
