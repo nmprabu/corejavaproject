@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="649948bf-ca09-43c0-ab6b-2ce731b416d4" name="Changes" comment="" />
+    <list default="true" id="649948bf-ca09-43c0-ab6b-2ce731b416d4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,38 +52,86 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Gradle.Build corejavaproject.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.corejavaproject [:AdditionMain.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.corejavaproject [:BlockingQueueEx.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.corejavaproject [:DemoMain.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.corejavaproject [:OrderMain.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.corejavaproject [:ReenterantlockExample.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.corejavaproject [:TestMain.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.corejavaproject [:ThreadsTest.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.corejavaproject [:VolatileMain.main()].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Gradle.Build corejavaproject.executor": "Run",
+    "Gradle.corejavaproject [:AccountMain.main()].executor": "Run",
+    "Gradle.corejavaproject [:AdditionMain.main()].executor": "Run",
+    "Gradle.corejavaproject [:BlockingQueueEx.main()].executor": "Run",
+    "Gradle.corejavaproject [:BoxMain.main()].executor": "Run",
+    "Gradle.corejavaproject [:CopyOnArrayListExample.main()].executor": "Run",
+    "Gradle.corejavaproject [:DemoMain.main()].executor": "Run",
+    "Gradle.corejavaproject [:EmployeeMain.main()].executor": "Run",
+    "Gradle.corejavaproject [:ImmutableCollection.main()].executor": "Run",
+    "Gradle.corejavaproject [:MapMain.main()].executor": "Run",
+    "Gradle.corejavaproject [:OrderMain.main()].executor": "Run",
+    "Gradle.corejavaproject [:ProductMain.main()].executor": "Run",
+    "Gradle.corejavaproject [:ReenterantlockExample.main()].executor": "Run",
+    "Gradle.corejavaproject [:StudentMain.main()].executor": "Run",
+    "Gradle.corejavaproject [:TestMain.main()].executor": "Run",
+    "Gradle.corejavaproject [:ThreadsTest.main()].executor": "Run",
+    "Gradle.corejavaproject [:VolatileMain.main()].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;,
-      &quot;module&quot;,
-      &quot;repository&quot;
+  "keyToStringList": {
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.OrderMain">
-    <configuration name="AdditionMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.corejavaproject.lambda.AdditionMain" />
+    <configuration name="AccountMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.corejavaproject.serialize.AccountMain" />
       <module name="corejavaproject.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.corejavaproject.lambda.*" />
+          <option name="PATTERN" value="com.corejavaproject.serialize.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BoxMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.corejavaproject.generics.BoxMain" />
+      <module name="corejavaproject.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.corejavaproject.generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CopyOnArrayListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.corejavaproject.collection.collectionsmultithreading.CopyOnArrayListExample" />
+      <module name="corejavaproject.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.corejavaproject.collection.collectionsmultithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.corejavaproject.reflection.EmployeeMain" />
+      <module name="corejavaproject.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.corejavaproject.reflection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,50 +140,11 @@
       </method>
     </configuration>
     <configuration name="OrderMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.corejavaproject.stream.OrderMain" />
+      <option name="MAIN_CLASS_NAME" value="com.corejavaproject.generics.OrderMain" />
       <module name="corejavaproject.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.corejavaproject.stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReenterantlockExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.corejavaproject.thread.reenterantlock.ReenterantlockExample" />
-      <module name="corejavaproject.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.corejavaproject.thread.reenterantlock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.corejavaproject.thread.threadnotifycommunicaiton.TestMain" />
-      <module name="corejavaproject.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.corejavaproject.thread.threadnotifycommunicaiton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.corejavaproject.lambda.defaultstaticprivateinInterface.TestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.corejavaproject.lambda.defaultstaticprivateinInterface.TestMain" />
-      <module name="corejavaproject.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.corejavaproject.lambda.defaultstaticprivateinInterface.*" />
+          <option name="PATTERN" value="com.corejavaproject.generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,10 +155,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.OrderMain" />
-        <item itemvalue="Application.com.corejavaproject.lambda.defaultstaticprivateinInterface.TestMain" />
-        <item itemvalue="Application.AdditionMain" />
-        <item itemvalue="Application.ReenterantlockExample" />
-        <item itemvalue="Application.TestMain" />
+        <item itemvalue="Application.BoxMain" />
+        <item itemvalue="Application.EmployeeMain" />
+        <item itemvalue="Application.AccountMain" />
+        <item itemvalue="Application.CopyOnArrayListExample" />
       </list>
     </recent_temporary>
   </component>
@@ -199,12 +210,63 @@
       <option name="project" value="LOCAL" />
       <updated>1725802641547</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Streams">
+      <option name="closed" value="true" />
+      <created>1725809190261</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1725809190261</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Collections">
+      <option name="closed" value="true" />
+      <created>1727020511065</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1727020511065</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Generics">
+      <option name="closed" value="true" />
+      <created>1728141080738</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1728141080738</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="blockingqueue" />
-    <option name="LAST_COMMIT_MESSAGE" value="blockingqueue" />
+    <MESSAGE value="Streams" />
+    <MESSAGE value="Collections" />
+    <MESSAGE value="Generics" />
+    <option name="LAST_COMMIT_MESSAGE" value="Generics" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/corejavaproject/generics/BoxMain.java</url>
+          <line>7</line>
+          <properties class="com.corejavaproject.generics.BoxMain" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/corejavaproject/generics/OrderMain.java</url>
+          <line>7</line>
+          <properties class="com.corejavaproject.generics.OrderMain" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
