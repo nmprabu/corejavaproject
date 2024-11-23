@@ -60,6 +60,7 @@
     "Gradle.corejavaproject [:AdditionMain.main()].executor": "Run",
     "Gradle.corejavaproject [:BlockingQueueEx.main()].executor": "Run",
     "Gradle.corejavaproject [:BoxMain.main()].executor": "Run",
+    "Gradle.corejavaproject [:CakeMain.main()].executor": "Run",
     "Gradle.corejavaproject [:CopyOnArrayListExample.main()].executor": "Run",
     "Gradle.corejavaproject [:DemoMain.main()].executor": "Run",
     "Gradle.corejavaproject [:EmployeeMain.main()].executor": "Run",
@@ -68,12 +69,18 @@
     "Gradle.corejavaproject [:OrderMain.main()].executor": "Run",
     "Gradle.corejavaproject [:ProductMain.main()].executor": "Run",
     "Gradle.corejavaproject [:ReenterantlockExample.main()].executor": "Run",
+    "Gradle.corejavaproject [:StringToStream.main()].executor": "Run",
     "Gradle.corejavaproject [:StudentMain.main()].executor": "Run",
     "Gradle.corejavaproject [:TestMain.main()].executor": "Run",
+    "Gradle.corejavaproject [:TestMainPrototypePattern.main()].executor": "Run",
     "Gradle.corejavaproject [:ThreadsTest.main()].executor": "Run",
     "Gradle.corejavaproject [:VolatileMain.main()].executor": "Run",
+    "Gradle.corejavaproject [:runtimemethod.main()].executor": "Run",
+    "Gradle.corejavaproject [:takewhiledropwhile.main()].executor": "Run",
+    "Gradle.corejavaproject [:wildcard.main()].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "kotlin-language-version-configured": "true",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors"
@@ -86,13 +93,13 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.OrderMain">
-    <configuration name="AccountMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.corejavaproject.serialize.AccountMain" />
+  <component name="RunManager" selected="Application.TestMainPrototypePattern">
+    <configuration name="CakeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.corejavaproject.designpattern.BuilderDesign.CakeMain" />
       <module name="corejavaproject.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.corejavaproject.serialize.*" />
+          <option name="PATTERN" value="com.corejavaproject.designpattern.BuilderDesign.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BoxMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.corejavaproject.generics.BoxMain" />
+    <configuration name="StringToStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.corejavaproject.stream.StringToStream" />
       <module name="corejavaproject.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.corejavaproject.generics.*" />
+          <option name="PATTERN" value="com.corejavaproject.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CopyOnArrayListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.corejavaproject.collection.collectionsmultithreading.CopyOnArrayListExample" />
+    <configuration name="TestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.corejavaproject.designpattern.Singleton.TestMain" />
       <module name="corejavaproject.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.corejavaproject.collection.collectionsmultithreading.*" />
+          <option name="PATTERN" value="com.corejavaproject.designpattern.Singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.corejavaproject.reflection.EmployeeMain" />
+    <configuration name="TestMainPrototypePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.corejavaproject.designpattern.PrototypeDesign.TestMainPrototypePattern" />
       <module name="corejavaproject.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.corejavaproject.reflection.*" />
+          <option name="PATTERN" value="com.corejavaproject.designpattern.PrototypeDesign.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.corejavaproject.generics.OrderMain" />
+    <configuration name="takewhiledropwhile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.corejavaproject.stream.takewhiledropwhile" />
       <module name="corejavaproject.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.corejavaproject.generics.*" />
+          <option name="PATTERN" value="com.corejavaproject.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OrderMain" />
-        <item itemvalue="Application.BoxMain" />
-        <item itemvalue="Application.EmployeeMain" />
-        <item itemvalue="Application.AccountMain" />
-        <item itemvalue="Application.CopyOnArrayListExample" />
+        <item itemvalue="Application.TestMainPrototypePattern" />
+        <item itemvalue="Application.CakeMain" />
+        <item itemvalue="Application.TestMain" />
+        <item itemvalue="Application.StringToStream" />
+        <item itemvalue="Application.takewhiledropwhile" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +241,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728141080738</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Generics">
+      <option name="closed" value="true" />
+      <created>1728223846085</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1728223846085</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

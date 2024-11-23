@@ -1,4 +1,4 @@
-package com.corejavaproject.designpattern;
+package com.corejavaproject.designpattern.Singleton;
 
 public final class LazySingleton {
     public static volatile LazySingleton instance = null;

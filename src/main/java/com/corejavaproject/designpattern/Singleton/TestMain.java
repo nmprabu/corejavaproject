@@ -1,4 +1,4 @@
-package com.corejavaproject.designpattern;
+package com.corejavaproject.designpattern.Singleton;
 
 import lombok.extern.log4j.Log4j2;
 

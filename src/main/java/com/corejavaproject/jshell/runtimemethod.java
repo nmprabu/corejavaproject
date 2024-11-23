@@ -1,10 +1,16 @@
 package com.corejavaproject.jshell;
 
-public class jshellruntime {
+import java.io.IOException;
 
-    public static void main(String[] args) {
+public class runtimemethod {
+
+    public static void main(String[] args) throws IOException {
 
 
-        
+        try {
+            Runtime.getRuntime().exec("notepad.exe");
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 }
