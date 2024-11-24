@@ -1,6 +1,6 @@
 package com.corejavaproject.designpattern.abstractfactory;
 
-public class DefaultFactory {
+public class DefaultCarFactory {
 
     public static Car buildCar(CarType model)
     {

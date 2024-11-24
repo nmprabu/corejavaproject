@@ -1,12 +1,3 @@
-2024-10-27 08:11:30,469 INFO c.c.d.TestMain [Thread-1] Thread name:Thread-1
-2024-10-27 08:11:30,469 INFO c.c.d.TestMain [Thread-0] Thread name:Thread-0
-2024-10-27 08:11:30,502 INFO c.c.d.TestMain [Thread-0] Hashcode of object 2133736418
-2024-10-27 08:11:30,502 INFO c.c.d.TestMain [Thread-1] Hashcode of object 2133736418
-2024-10-27 08:13:02,515 INFO c.c.d.TestMain [Thread-0] Thread name:Thread-0
-2024-10-27 08:13:02,515 INFO c.c.d.TestMain [Thread-1] Thread name:Thread-1
-2024-10-27 08:13:02,527 INFO c.c.d.TestMain [Thread-1] Hashcode of object 1244265492
-2024-10-27 08:13:02,527 INFO c.c.d.TestMain [Thread-0] Hashcode of object 360786330
-2024-10-27 08:13:20,225 INFO c.c.d.TestMain [Thread-0] Thread name:Thread-0
-2024-10-27 08:13:20,225 INFO c.c.d.TestMain [Thread-1] Thread name:Thread-1
-2024-10-27 08:13:20,237 INFO c.c.d.TestMain [Thread-1] Hashcode of object 1399796932
-2024-10-27 08:13:20,237 INFO c.c.d.TestMain [Thread-0] Hashcode of object 1399796932
+2024-11-23 07:35:00,519 INFO c.c.d.a.SmallCar [main] Luxury Car
+2024-11-23 07:35:00,541 INFO c.c.d.a.SedanCar [main] Luxury Car
+2024-11-23 07:35:00,542 INFO c.c.d.a.LuxuryCar [main] Luxury Car
